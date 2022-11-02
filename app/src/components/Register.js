@@ -32,7 +32,7 @@ const Register = () => {
             label="Last Name"
             
             />
-        <Button variant="contained">Submit</Button> </Box>
+        <Button variant="contained">Join Now</Button> </Box>
     </form> 
     )
 }
