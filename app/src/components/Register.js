@@ -9,6 +9,13 @@ const Register = () => {
     return (
          <form> 
         <Box sx = {{flexDirection: 'column', display: 'flex'}}>
+
+        <TextField
+             required
+            id="outlined-required"
+            label="Email"
+            />
+
             <TextField
              required
             id="outlined-required"
