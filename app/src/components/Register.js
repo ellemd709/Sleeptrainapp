@@ -21,7 +21,6 @@ const Register = () => {
        
         <TextInput id={'password'} label={'Password'} control = {control}/>
             
-        
         <TextInput id={'firstname'} label={'First Name'} control = {control}/>
            
         <TextInput id={'lastname'} label={'Last Name'} control = {control}/>
