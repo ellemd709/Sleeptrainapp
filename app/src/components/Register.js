@@ -16,7 +16,7 @@ const Register = () => {
 
     return (
          <form onSubmit={handleSubmit(submit)}> 
-        <Box sx = {{flexDirection: 'column', display: 'flex'}}>
+        <Box sx = {{flexDirection: 'column', display: 'flex',}}>
 
         <TextInput id={'Email'} label={'Email'} control = {control}/>
        
