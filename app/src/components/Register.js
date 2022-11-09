@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
@@ -7,9 +7,12 @@ import TextInput from './TextInput';
 
 const Register = () => {
     const {control, handleSubmit} =useForm()
+   
     const submit = (data) => {
         console.log (data)
     }
+    
+    
 
     return (
          <form onSubmit={handleSubmit(submit)}> 
@@ -26,6 +29,7 @@ const Register = () => {
         <TextInput id={'lastname'} label={'Last Name'} control = {control}/>
 
         <Button variant="contained" type='submit'>Join Now</Button> </Box>
+        
     </form> 
     )
 }
