@@ -4,11 +4,13 @@ import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import { useForm } from "react-hook-form";
 import TextInput from './TextInput';
+import { register } from '../utils/utils';
 
 const Register = () => {
     const {control, handleSubmit} =useForm()
    
     const submit = (data) => {
+        register (data)
         console.log (data)
     }
     
