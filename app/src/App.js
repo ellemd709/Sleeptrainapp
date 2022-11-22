@@ -4,13 +4,15 @@ import Test from './components/test';
 import Login from './components/login';
 import Register from './components/Register';
 import Authorize from './components/Authorize';
+import Routing from './components/Routing';
 
 function App() {
   return (
     <div className="App">
-   <Authorize/>
+   <Routing/>
     </div>
   );
 }
 
 export default App;
+
